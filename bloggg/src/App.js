@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import Homepage from "./pages/homepage"
 import Create from "./pages/create"
 import Community from "./pages/community"
+import About from "./pages/about"
 function App() {
   const action = useNavigationType();
   const location = useLocation();
@@ -57,6 +58,7 @@ function App() {
       <Route path="/homepage" element={<Homepage />} />
       <Route path="/create" element={<Create />} />
       <Route path="/community" element={<Community />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }

@@ -11,19 +11,22 @@ const HomePage = () => {
     window.location.href = "/community";
   }
 
+  const handleAboutClick = () => {
+    window.location.href = "/about";
+  }
+
 
   return (
     <div>
        <div class="topnav">
         
         <a href="#categories">Category</a>
-        <a href="#comunity" onClick={handleCommunityClick}>Community</a>
+        <a href="#community" onClick={handleCommunityClick}>Community</a>
         <a href="#create" onClick={handleCreateClick}>Create</a>
-        <a href="#about">About Us</a>
+        <a href="#about"onClick={handleAboutClick}>About Us</a>
     </div>
       <div className='screen'>
         <p className='para'>Work in progress!
-          This website is still under progress. Come back later for more features. For any queries, please contact with the above
         </p>
         <img src={prog} className="prog"></img>
       </div>
