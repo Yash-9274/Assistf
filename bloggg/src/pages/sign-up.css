@@ -1,0 +1,187 @@
+.sign-up-child {
+    position: absolute;
+    top: 220px;
+    left: 116px;
+    border-radius: var(--br-41xl);
+    background-color: var(--color-gray-100);
+    width: 1128px;
+    height: 634px;
+  }
+  .schoolify {
+    position: absolute;
+    top: calc(50% - 292px);
+    left: 170px;
+    font-size: var(--font-size-51xl);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 392px;
+    height: 105px;
+  }
+  .book-reader-icon {
+    position: absolute;
+    top: calc(50% - 272px);
+    left: 423px;
+    width: 18px;
+    height: 19px;
+    overflow: hidden;
+  }
+  .rectangle-input,
+  .sign-up-inner,
+  .sign-up-item {
+    border: 0;
+    background-color: var(--color-white);
+    position: absolute;
+    width: 380px;
+    height: 56px;
+  }
+  .sign-up-item {
+    top: 546px;
+    left: 186px;
+  }
+  .sign-up-inner {
+    top: 629px;
+    left: 188px;
+  }
+  .rectangle-input {
+    top: 474px;
+    left: 186px;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-indigo);
+    width: 372px;
+    height: 56px;
+  }
+  .login {
+    position: absolute;
+    top: 18px;
+    left: 118px;
+    font-size: var(--font-size-xl);
+    display: flex;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 20px;
+    filter: blur(2px);
+  }
+  .group-item,
+  .rectangle-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    width: 372px;
+    height: 56px;
+  }
+  .rectangle-parent {
+    background-color: transparent;
+    top: 749px;
+    left: 190px;
+  }
+  .group-item {
+    background-color: var(--color-indigo);
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+  }
+  .google-sign-up {
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    font-size: var(--font-size-xl);
+    display: flex;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 242px;
+    height: 20px;
+    filter: blur(2px);
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 375px;
+    left: 185px;
+    width: 372px;
+    height: 56px;
+  }
+  .already-have-an,
+  .create-an-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .create-an-account {
+    position: absolute;
+    top: 305px;
+    left: 254px;
+    font-weight: 600;
+    width: 205px;
+    height: 39px;
+  }
+  .already-have-an {
+    top: 712px;
+    left: 188px;
+    font-weight: 800;
+    color: var(--color-gray-200);
+    width: 308px;
+    height: 29px;
+  }
+  .already-have-an,
+  .icon,
+  .login1 {
+    position: absolute;
+  }
+  .login1 {
+    cursor: pointer;
+    text-decoration: none;
+    top: 712px;
+    left: 459px;
+    font-weight: 800;
+    color: var(--color-gray-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 107px;
+    height: 29px;
+  }
+  .icon {
+    top: 266px;
+    left: 513px;
+    width: 808px;
+    height: 539px;
+    object-fit: cover;
+  }
+  .sign-up {
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      #4169e1,
+      rgba(125, 97, 216, 0.58) 95.31%,
+      rgba(125, 97, 216, 0.58) 95.31%,
+      rgba(125, 97, 216, 0.58) 95.32%,
+      rgba(128, 97, 216, 0.56) 99.99%,
+      rgba(120, 121, 241, 0)
+    );
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  

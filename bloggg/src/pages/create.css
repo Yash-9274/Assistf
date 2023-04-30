@@ -1,0 +1,71 @@
+
+.topnav {
+    background-color: #037cd3;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    overflow: hidden;
+    padding: 0.75rem 0.5rem;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+.form-element {
+    background-color: #F6F5F5;
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+}
+
+.publish-button {
+    background-color: #F6F5F5;
+    padding: 0.25rem;
+    border-color: black;
+    border-radius: 30px;
+}
+
+.publish-button:hover {
+    background-color: #037cd3;
+    cursor: pointer;
+
+}
+
+.form-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    margin: 0.5rem 1rem;
+}
+
+.form-row-2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+    margin: 0.5rem 1rem;
+}
+
+.text-box {
+    width: 1000px;
+}

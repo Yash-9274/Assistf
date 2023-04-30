@@ -1,0 +1,262 @@
+.login-child {
+    position: absolute;
+    top: 182px;
+    left: 111px;
+    border-radius: var(--br-41xl);
+    background-color: var(--color-gray-100);
+    width: 1182px;
+    height: 671px;
+  }
+  .icon1 {
+    position: absolute;
+    top: 249px;
+    left: 620px;
+    width: 678px;
+    height: 510px;
+    object-fit: cover;
+  }
+  .schoolify1 {
+    position: absolute;
+    top: calc(50% - 52.5px);
+    left: 0;
+    font-size: var(--font-size-51xl);
+    font-weight: 800;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 392px;
+    height: 105px;
+  }
+  .book-reader-icon1 {
+    position: absolute;
+    top: calc(50% - 32.5px);
+    left: 272px;
+    width: 18px;
+    height: 19px;
+    overflow: hidden;
+  }
+  .schoolify-parent {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    width: 392px;
+    height: 105px;
+  }
+  .frame-child {
+    border: 0;
+    font-weight: 200;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xl);
+    background-color: var(--color-white);
+    top: 181px;
+    left: 56px;
+    width: 380px;
+  }
+  .frame-child,
+  .frame-inner,
+  .frame-item {
+    position: absolute;
+    height: 56px;
+  }
+  .frame-item {
+    border: 0;
+    font-weight: 200;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xl);
+    background-color: var(--color-white);
+    top: 261px;
+    left: 54px;
+    width: 380px;
+  }
+  .frame-inner {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-indigo);
+    width: 372px;
+  }
+  .login3 {
+    position: absolute;
+    top: 18px;
+    left: 118px;
+    font-size: var(--font-size-xl);
+    display: flex;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 20px;
+  }
+  .rectangle-container {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 363px;
+    left: 62px;
+    width: 372px;
+    height: 56px;
+  }
+  .dont-have-an {
+    font-weight: 800;
+  }
+  .dont-have-an,
+  .forgot-password,
+  .login4 {
+    position: absolute;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-inter);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login4 {
+    top: 95px;
+    left: 20px;
+    color: var(--color-white);
+    width: 144px;
+    height: 39px;
+  }
+  .login4,
+  .or-login-with {
+    font-weight: 800;
+  }
+  .or-login-with,
+  .sign-up1 {
+    position: absolute;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-inter);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dont-have-an {
+    top: 127px;
+    left: 42px;
+    width: 275px;
+  }
+  .dont-have-an,
+  .forgot-password,
+  .or-login-with {
+    color: var(--color-gray-200);
+    height: 29px;
+  }
+  .sign-up1 {
+    color: var(--color-gray-200);
+  }
+  .forgot-password {
+    width: 434px;
+  }
+  .or-login-with {
+    top: 446px;
+    left: 39px;
+    width: 434px;
+  }
+  .forgot-password {
+    top: 317px;
+    left: 128px;
+    font-weight: 600;
+  }
+  .sign-up1 {
+    cursor: pointer;
+    text-decoration: none;
+    top: 134px;
+    left: 275px;
+    font-weight: 800;
+    width: 140px;
+    height: 17px;
+  }
+  .line-div,
+  .line-icon {
+    position: absolute;
+    top: 460.5px;
+    height: 1px;
+  }
+  .line-icon {
+    left: 56px;
+    width: 114px;
+  }
+  .line-div {
+    left: 344.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 109px;
+  }
+  .frame-parent,
+  .group-inner {
+    position: absolute;
+    top: 201px;
+    left: 140px;
+    width: 562px;
+    height: 572px;
+  }
+  .group-inner {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-indigo);
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    width: 372px;
+    height: 56px;
+  }
+  .google-log-in {
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    font-size: var(--font-size-xl);
+    display: flex;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 242px;
+    height: 20px;
+  }
+  .group-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 691px;
+    left: 204px;
+    width: 372px;
+    height: 56px;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 4.1%;
+    width: 3.4%;
+    top: 68.16%;
+    right: 80.76%;
+    bottom: 27.73%;
+    left: 15.83%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .login2 {
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      #4169e1,
+      rgba(125, 97, 216, 0.58) 95.31%,
+      rgba(128, 97, 216, 0.56) 99.99%,
+      rgba(120, 121, 241, 0)
+    );
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+  }
+  
