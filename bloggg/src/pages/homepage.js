@@ -7,13 +7,17 @@ const HomePage = () => {
   const handleCreateClick = () => {
     window.location.href = "/create";
   }
+    const handleCommunityClick = () => {
+    window.location.href = "/community";
+  }
+
 
   return (
     <div>
        <div class="topnav">
         
         <a href="#categories">Category</a>
-        <a href="#comunity">Community</a>
+        <a href="#comunity" onClick={handleCommunityClick}>Community</a>
         <a href="#create" onClick={handleCreateClick}>Create</a>
         <a href="#about">About Us</a>
     </div>

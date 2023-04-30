@@ -9,6 +9,7 @@ import SignUp from "./pages/sign-up";
 import { useEffect } from "react";
 import Homepage from "./pages/homepage"
 import Create from "./pages/create"
+import Community from "./pages/community"
 function App() {
   const action = useNavigationType();
   const location = useLocation();
@@ -55,6 +56,7 @@ function App() {
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/homepage" element={<Homepage />} />
       <Route path="/create" element={<Create />} />
+      <Route path="/community" element={<Community />} />
     </Routes>
   );
 }
