@@ -8,6 +8,8 @@ const SignUp = () => {
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
   const [allFieldsFilled, setAllFieldsFilled] = useState(false);
+  const [passwordStrength, setPasswordStrength] = useState("");
+  const [isEmailValid, setIsEmailValid] = useState(true);
 
   const onGroupButtonClick = useCallback(() => {
     navigate("/home");
@@ -18,13 +20,17 @@ const SignUp = () => {
   }, [navigate]);
 
   const handleEmailChange = (event) => {
-    setEmail(event.target.value);
+    const emailValue = event.target.value;
+    setEmail(emailValue);
     checkAllFieldsFilled();
+    validateEmail(emailValue);
   };
 
   const handlePasswordChange = (event) => {
-    setPassword(event.target.value);
+    const passwordValue = event.target.value;
+    setPassword(passwordValue);
     checkAllFieldsFilled();
+    checkPasswordStrength(passwordValue);
   };
 
   const handleUsernameChange = (event) => {
@@ -40,10 +46,26 @@ const SignUp = () => {
     }
   };
 
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    setIsEmailValid(emailRegex.test(email));
+  };
+
+  const checkPasswordStrength = (password) => {
+    // Check password strength and set the password strength state accordingly
+    if (password.length < 8) {
+      setPasswordStrength("Weak");
+    } else if (password.length < 10) {
+      setPasswordStrength("Medium");
+    } else {
+      setPasswordStrength("Strong");
+    }
+  };
+
   return (
     <div className="sign-up">
       <div className="sign-up-child" />
-      <div className="schoolify">Schoolify</div>
+      <div className="schoolify">Assistance</div>
       {/* <img className="book-reader-icon" alt="" src="/bookreader.svg" /> */}
       <input
         className="sign-up-item"
@@ -53,16 +75,18 @@ const SignUp = () => {
         value={email}
         onChange={handleEmailChange}
       />
+      {!isEmailValid && <div className="invalid-email">Invalid email format</div>}
       <input
         className="sign-up-inner"
         type="password"
         placeholder="Password"
-        maxLength={8}
+        maxLength={20}
         minLength={8}
         required
         value={password}
         onChange={handlePasswordChange}
       />
+      <div className="password-strength">{passwordStrength}</div>
       <input
         className="rectangle-input"
         type="text"
@@ -78,17 +102,14 @@ const SignUp = () => {
         autoFocus
         id="Sign-In"
         onClick={onGroupButtonClick}
-        disabled={!allFieldsFilled} // disable the button if not all fields are filled
+        disabled={!allFieldsFilled || !isEmailValid} // disable the button if not all fields are filled or email is invalid
       >
         <div className="group-child" />
         <b className="login">LOGIN</b>
       </button>
-      <button className="rectangle-group">
-        <button className="group-item" />
-        <b className="google-sign-up">Google Sign up</b>
-      </button>
+     
       <div className="create-an-account">Create an Account</div>
-      <div className="already-have-an">Already have an account ?</div>
+      <div className="already-have-an">Already have an account?</div>
       <Link className="login1" to="/" onClick={onLoginClick}>
         Login
       </Link>
